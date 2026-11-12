@@ -19,4 +19,8 @@ body{
     .btn-danger{
         @apply bg-red-500 text-white hover:bg-red-700;
     }
+    .input{
+        @apply border border-zinc-800 roudend-lg px-4 py-2;
+        @apply outline-none focus:border-purple-500;
+    }
 }
