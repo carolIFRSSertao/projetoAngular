@@ -14,8 +14,8 @@
             rounded-leg flex items-center gap-4">
            <span [class.line-through]="item.completed" class="flex-1"> {{ item.title }}</span>
             <span
-            [class-bg-green-700]="item.completed"
-            [class-bg-yellow-700]="!item.completed"
+            [class.bg-green-700]="item.completed"
+            [class.bg-yellow-700]="!item.completed"
             class="px-4- py-1 rounded-full text-sm text-white">
             {{item.completed ? 'Concluído' : 'Pendente'}}
             </span>
